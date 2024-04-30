@@ -1,0 +1,63 @@
+.title {
+    text-align: center;
+    color: rgb(137, 192, 53);
+    font-size: xx-large;
+}
+
+.ques {
+    background-color: gray;
+    font-weight: bolder;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    gap: 2px;
+    margin-top: 50px;
+    position: absolute;
+    top: 200px;
+    right: 120px;
+}
+
+.box div {
+    border: 1px solid rgb(182, 167, 167);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box h1 {
+    position: relative;
+    left: 35px;
+}
+
+.box input:hover,
+label:hover {
+    cursor: pointer;
+    background-color: rgb(109, 101, 101);
+}
+
+.submit {
+    position: relative;
+    top: -200px;
+    left: 900px;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(182, 167, 167);
+}
+
+.submit:hover {
+    background-color: rgb(109, 101, 101);
+    cursor: pointer;
+}
